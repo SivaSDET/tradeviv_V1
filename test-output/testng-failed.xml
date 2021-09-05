@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="10" name="Failed suite [TradeVIV_1.0]">
+  <listeners>
+    <listener class-name="com.tradeviv.utilites.Reporting"/>
+  </listeners>
+  <test thread-count="5" verbose="10" name="Login Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.tradeviv.testCases.TC_MainCategory_004">
+        <methods>
+          <include name="addMainCategory"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.tradeviv.testCases.TC_MainCategory_004 -->
+      <class name="com.tradeviv.testCases.TC_AdminLoginDDT_002">
+        <methods>
+          <include name="setup"/>
+          <include name="adminLoginDDT"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.tradeviv.testCases.TC_AdminLoginDDT_002 -->
+      <class name="com.tradeviv.testCases.TC_AdminLoginTest_001">
+        <methods>
+          <include name="setup"/>
+          <include name="adminLoginTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.tradeviv.testCases.TC_AdminLoginTest_001 -->
+    </classes>
+  </test> <!-- Login Test(failed) -->
+</suite> <!-- Failed suite [TradeVIV_1.0] -->

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TradeVIV_1.0"  verbose="10">
+	<listeners>
+	<listener class-name="com.tradeviv.utilites.Reporting"/>
+	</listeners>	
+ 
+	<test thread-count="5" name="Login Test">
+	   <parameter name="browser" value="chrome"/>
+	    <classes>
+	   
+	          <class name="com.tradeviv.testCases.TC_AdminLoginTest_001"/>    
+	          
+	       
+	      
+	    </classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

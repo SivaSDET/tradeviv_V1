@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TradeVIV_1.0" duration-ms="64413" started-at="2021-09-04T02:22:40Z" finished-at="2021-09-04T02:23:44Z">
+    <groups>
+    </groups>
+    <test name="Login Test" duration-ms="64413" started-at="2021-09-04T02:22:40Z" finished-at="2021-09-04T02:23:44Z">
+      <class name="com.tradeviv.testCases.TC_AdminLoginDDT_002">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.tradeviv.testCases.TC_AdminLoginDDT_002@6fd02e5]" name="setup" is-config="true" duration-ms="7012" started-at="2021-09-04T02:22:59Z" finished-at="2021-09-04T02:23:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="adminLoginDDT(java.lang.String, java.lang.String)[pri:0, instance:com.tradeviv.testCases.TC_AdminLoginDDT_002@6fd02e5]" name="adminLoginDDT" duration-ms="252" started-at="2021-09-04T02:23:06Z" data-provider="AdminLoginData" finished-at="2021-09-04T02:23:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin@tradeviv.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adminLoginDDT -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.tradeviv.testCases.TC_AdminLoginDDT_002@6fd02e5]" name="tearDown" is-config="true" duration-ms="607" started-at="2021-09-04T02:23:06Z" finished-at="2021-09-04T02:23:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.tradeviv.testCases.TC_AdminLoginDDT_002@6fd02e5]" name="setup" is-config="true" duration-ms="6025" started-at="2021-09-04T02:23:07Z" finished-at="2021-09-04T02:23:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="adminLoginDDT(java.lang.String, java.lang.String)[pri:0, instance:com.tradeviv.testCases.TC_AdminLoginDDT_002@6fd02e5]" name="adminLoginDDT" duration-ms="239" started-at="2021-09-04T02:23:13Z" data-provider="AdminLoginData" finished-at="2021-09-04T02:23:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adminLoginDDT -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.tradeviv.testCases.TC_AdminLoginDDT_002@6fd02e5]" name="tearDown" is-config="true" duration-ms="602" started-at="2021-09-04T02:23:13Z" finished-at="2021-09-04T02:23:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.tradeviv.testCases.TC_AdminLoginDDT_002@6fd02e5]" name="setup" is-config="true" duration-ms="6389" started-at="2021-09-04T02:23:14Z" finished-at="2021-09-04T02:23:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="adminLoginDDT(java.lang.String, java.lang.String)[pri:0, instance:com.tradeviv.testCases.TC_AdminLoginDDT_002@6fd02e5]" name="adminLoginDDT" duration-ms="240" started-at="2021-09-04T02:23:20Z" data-provider="AdminLoginData" finished-at="2021-09-04T02:23:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[adm@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adminLoginDDT -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.tradeviv.testCases.TC_AdminLoginDDT_002@6fd02e5]" name="tearDown" is-config="true" duration-ms="605" started-at="2021-09-04T02:23:20Z" finished-at="2021-09-04T02:23:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.tradeviv.testCases.TC_AdminLoginDDT_002@6fd02e5]" name="setup" is-config="true" duration-ms="6134" started-at="2021-09-04T02:23:21Z" finished-at="2021-09-04T02:23:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="adminLoginDDT(java.lang.String, java.lang.String)[pri:0, instance:com.tradeviv.testCases.TC_AdminLoginDDT_002@6fd02e5]" name="adminLoginDDT" duration-ms="242" started-at="2021-09-04T02:23:27Z" data-provider="AdminLoginData" finished-at="2021-09-04T02:23:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin@tradeviv.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adminLoginDDT -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.tradeviv.testCases.TC_AdminLoginDDT_002@6fd02e5]" name="tearDown" is-config="true" duration-ms="583" started-at="2021-09-04T02:23:27Z" finished-at="2021-09-04T02:23:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.tradeviv.testCases.TC_AdminLoginDDT_002 -->
+      <class name="com.tradeviv.testCases.TC_AdminLoginTest_001">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.tradeviv.testCases.TC_AdminLoginTest_001@5700d6b1]" name="setup" is-config="true" duration-ms="16536" started-at="2021-09-04T02:22:40Z" finished-at="2021-09-04T02:22:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="adminLoginTest()[pri:0, instance:com.tradeviv.testCases.TC_AdminLoginTest_001@5700d6b1]" name="adminLoginTest" duration-ms="459" started-at="2021-09-04T02:22:57Z" finished-at="2021-09-04T02:22:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adminLoginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.tradeviv.testCases.TC_AdminLoginTest_001@5700d6b1]" name="tearDown" is-config="true" duration-ms="682" started-at="2021-09-04T02:22:57Z" finished-at="2021-09-04T02:22:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.tradeviv.testCases.TC_AdminLoginTest_001 -->
+      <class name="com.tradeviv.testCases.TC_MainCategory_004">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.tradeviv.testCases.TC_MainCategory_004@5bcab519]" name="setup" is-config="true" duration-ms="6864" started-at="2021-09-04T02:23:28Z" finished-at="2021-09-04T02:23:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="addMainCategory()[pri:0, instance:com.tradeviv.testCases.TC_MainCategory_004@5bcab519]" name="addMainCategory" duration-ms="9044" started-at="2021-09-04T02:23:35Z" finished-at="2021-09-04T02:23:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addMainCategory -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.tradeviv.testCases.TC_MainCategory_004@5bcab519]" name="tearDown" is-config="true" duration-ms="624" started-at="2021-09-04T02:23:44Z" finished-at="2021-09-04T02:23:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.tradeviv.testCases.TC_MainCategory_004 -->
+    </test> <!-- Login Test -->
+  </suite> <!-- TradeVIV_1.0 -->
+</testng-results>
